@@ -1,0 +1,109 @@
+name: Cube Drone
+author: Cube Drone
+author_link: https://cube-drone.com
+description: Vancouver software developer and cartoonist.
+image: assets/cube-drone.png
+favicon: assets/favicon.png
+extra_header: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    h1, h2, h3, h4, h5, h6{
+      margin-top: 0;
+      font-family: "Crimson Text", serif;
+    }
+  </style>
+pages:
+  - id: intro
+    title: Hi, I'm Cube Drone!
+    content: | 
+      # Hi, I'm Cube Drone
+
+      I'm a Vancouver software developer, cartoonist, and weird nerd.
+
+      You might remember me from:
+
+      * The [Virtual Reality platform](https://hello.vrchat.com/) I've been working at as a lead developer for approximately one decade. 
+      * [Mastodon](https://mastodon.social/@cube_drone), the social network for neurodivergent distributed FOSS perverts, furry anarchists, and savage internecine moderation feuds.
+  - title: More Stuff
+    id: more-stuff
+    content: |
+      ## Some More Stuff
+      #
+      * A [blog?](https://blog.cube-drone.com/) Who still has a blog in this day and age?
+      * [CardChapter](https://cardchapter.com/). It's... hard to explain. 
+      * Some [comics I wrote a long time ago](http://comics.cube-drone.com).
+      * The wildly popular [Drone-Ver](http://dronever.cube-drone.com/) Versioning Scheme.
+      * A lot of defunct, experimental, no-longer-operational video games and websites, most of which at their very best had no more than a handful of users.
+  - title: Contact Me
+    id: contact
+    type: stack
+    pages: 
+      - id: contact-0
+        content: |
+          ## Contact Me
+      - id: contact-1
+        image: assets/email-1.png
+      - id: contact-2
+        fade_in: 1500
+        image: assets/email-2.png
+  - title: Clutter
+    id: clutter
+    type: stack
+    pages:
+      - id: clutter-2
+        image: assets/clutter-bw.png
+      - id: clutter-1
+        image: assets/clutter.png
+        fade_in: 100
+        duration: 3000
+  - title: Keep Scrolling
+    id: keep scrolling
+    content: |
+      ## This is Too Much Content for an Introductory Page
+
+      Seriously, why are you still scrolling? Even my own
+      mother doesn't want to get to know me _that_ badly.
+
+      Uh... I like... [vim keybindings](https://vim.rtorr.com/). 
+
+      And ... rain? 
+
+      I host my entire playlist as an [icecast station](https://radio.marquee.click/)
+      so that I have access to it everywhere I go?
+
+      I cook pretty well? 
+  - title: On Handles
+    id: handles
+    content: |
+      ## On Handles
+      It may seem very, uh, _1995_ to have an [_internet handle_](https://www.youtube.com/watch?v=wlMvYx11V-Y). 
+      But I stand by it. 
+
+      I picked the name when I worked in a gigantic cubicle farm for a major telecommunications company.
+      It's not as representative of my personality now as it was when I chose it - but
+      I own the domain name and it's my handle on all kinds of social media, so I'm stuck with it.
+  - title: Wait, is that a Substack Blog?
+    id: substack
+    type: stack
+    pages:
+      - id: more-like-subsuck
+        content: |
+          ## Wait, Is That a Substack? 
+          Yeah, I know - [blog.cube-drone.com](https://blog.cube-drone.com) is on Substack and Substack 
+          is terrible, both because of the awful people they platform 
+          and the terrifying amount of money they
+          owe to VC legbreakers. I should host my blog myself. I will, eventually, probably. 
+      - id: stack-squirt
+        fade_in: 1000
+        image: assets/substack.png
+  - title: Look at this cat
+    id: cat
+    type: stack
+    pages:
+      - id: cat-1
+        image: assets/zapp.png
+      - id: cat-2
+        image: assets/zapp-2.png
+        fade_in: 2000
